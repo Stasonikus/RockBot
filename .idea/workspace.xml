@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="577deca4-04de-4c35-9bca-da9122ff6a45" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/proj1ct/SpringTelegramBot/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/proj1ct/SpringTelegramBot/model/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/proj1ct/SpringTelegramBot/config/BotConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/proj1ct/SpringTelegramBot/config/BotConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/proj1ct/SpringTelegramBot/service/TelegramBot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/proj1ct/SpringTelegramBot/service/TelegramBot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/io/proj1ct/SpringTelegramBot/service/TelegramBot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/proj1ct/SpringTelegramBot/service/TelegramBot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

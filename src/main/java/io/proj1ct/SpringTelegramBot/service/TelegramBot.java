@@ -1,5 +1,6 @@
 package io.proj1ct.SpringTelegramBot.service;
 
+import com.vdurmont.emoji.EmojiParser;
 import io.proj1ct.SpringTelegramBot.config.BotConfig;
 import io.proj1ct.SpringTelegramBot.model.User;
 import io.proj1ct.SpringTelegramBot.model.UserRepository;
@@ -103,7 +104,8 @@ public class TelegramBot extends TelegramLongPollingBot {
     }
 
     private void startCommandReceived(long chatId, String name) {
-        String answer = "Шалом, " + name + " мир и благодать вам!";
+        String answer = EmojiParser.parseToUnicode("Шалом, " + name + " мир и благодать вам!" + ":blush:");
+        //String answer = "Шалом, " + name + " мир и благодать вам!";
         log.info("Ответ пользователю {} отправлен", name);
         sendMessage(chatId, answer);
     }
