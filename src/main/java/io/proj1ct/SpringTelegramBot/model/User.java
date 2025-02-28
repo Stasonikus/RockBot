@@ -7,17 +7,22 @@ import java.sql.Timestamp;
 
 @Entity(name = "usersDataTable")
 public class User {
-
+    //Сеттеры и геттеры шаблона для создания User
     @Id
     private Long chatId;
-
     private String firstName;
-
     private String lastName;
-
     private String userName;
-
     private Timestamp registeredAt;
+    private boolean isAdmin;
+
+    public boolean getisAdmin() {
+        return isAdmin;
+    }
+
+    public void setAdmin(boolean admin) {
+        isAdmin = admin;
+    }
 
     public Timestamp getRegisteredAt() {
         return registeredAt;
@@ -67,6 +72,7 @@ public class User {
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +
                 ", registeredAt=" + registeredAt +
+                ", isAdmin=" + isAdmin +
                 '}';
     }
 }

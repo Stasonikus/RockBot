@@ -27,7 +27,7 @@ public class BotInitializer {
 
         catch (TelegramApiException e){
         //Обрабатывает исключения, если регистрация не удалась.
-            log.error("Error occured: " + e.getMessage());
+            log.error("Registration error: " + e.getMessage());
         }
     }
 
